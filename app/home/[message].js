@@ -84,7 +84,7 @@ export default function Page() {
       <Stack.Screen
       
         options={{
-          headerStyle: { backgroundColor: "gray" },
+          headerStyle: { backgroundColor: "#115173" },
           title: "Edit Message",
           headerTintColor: "#fff",
             headerTitleStyle: {
@@ -120,7 +120,7 @@ export default function Page() {
                 textAlign: "center",
                 fontWeight: "bold",
                 fontSize: 22,
-                color: "black",
+                color: "#FFD700",
               }}
             >
               Delete
@@ -136,14 +136,14 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     paddingLeft: 10,
     marginBottom: 10,
-    borderColor: "gray",
+    borderColor: "#FFD700",
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginTop: 10,
   },
   resButt: {
     justifyContent: "center",
-    backgroundColor: "gray",
+    backgroundColor: "#115173",
     height: 40,
     width: 100,
     borderRadius: 50,
